@@ -1,0 +1,1 @@
+/Users/nedgoio/Dev/makerarmy/ui/tmp/funnel-input_base_path-ekOpyX2H.tmp/adapters/json-api.js

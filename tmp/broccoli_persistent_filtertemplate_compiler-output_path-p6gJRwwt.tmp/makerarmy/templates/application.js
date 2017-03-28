@@ -1,0 +1,1 @@
+export default Ember.HTMLBars.template({"id":"FHUMRo/V","block":"{\"statements\":[[\"append\",[\"unknown\",[\"welcome-page\"]],false],[\"text\",\"\\n\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}","meta":{"moduleName":"makerarmy/templates/application.hbs"}});

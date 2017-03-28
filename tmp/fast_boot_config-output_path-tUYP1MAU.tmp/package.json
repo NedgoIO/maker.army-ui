@@ -1,0 +1,34 @@
+{
+  "dependencies": {},
+  "fastboot": {
+    "moduleWhitelist": [],
+    "schemaVersion": 2,
+    "manifest": {
+      "appFiles": [
+        "fastboot/makerarmy.js"
+      ],
+      "vendorFiles": [
+        "fastboot/vendor.js"
+      ],
+      "htmlFile": "index.html"
+    },
+    "appConfig": {
+      "modulePrefix": "makerarmy",
+      "environment": "development",
+      "rootURL": "/",
+      "locationType": "auto",
+      "EmberENV": {
+        "FEATURES": {},
+        "EXTEND_PROTOTYPES": {
+          "Date": false
+        }
+      },
+      "APP": {
+        "name": "makerarmy",
+        "version": "0.0.0+1df2b17b",
+        "autoboot": false
+      },
+      "exportApplicationGlobal": true
+    }
+  }
+}
