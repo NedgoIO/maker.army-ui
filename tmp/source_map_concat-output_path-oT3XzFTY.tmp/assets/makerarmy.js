@@ -456,7 +456,7 @@ define('makerarmy/services/fastboot', ['exports', 'ember'], function (exports, _
 });
 /* global FastBoot */
 define("makerarmy/templates/application", ["exports"], function (exports) {
-  exports["default"] = Ember.HTMLBars.template({ "id": "FHUMRo/V", "block": "{\"statements\":[[\"append\",[\"unknown\",[\"welcome-page\"]],false],[\"text\",\"\\n\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "makerarmy/templates/application.hbs" } });
+  exports["default"] = Ember.HTMLBars.template({ "id": "BARFLGp7", "block": "{\"statements\":[[\"open-element\",\"h2\",[]],[\"static-attr\",\"id\",\"”title”\"],[\"flush-element\"],[\"text\",\"Welcome to Ember\"],[\"close-element\"],[\"text\",\"\\n\"],[\"open-element\",\"h4\",[]],[\"flush-element\"],[\"text\",\"(with fastboot, on heroku!)\"],[\"close-element\"],[\"text\",\"\\n\"],[\"append\",[\"unknown\",[\"outlet\"]],false],[\"text\",\"\\n\"]],\"locals\":[],\"named\":[],\"yields\":[],\"blocks\":[],\"hasPartials\":false}", "meta": { "moduleName": "makerarmy/templates/application.hbs" } });
 });
 
 

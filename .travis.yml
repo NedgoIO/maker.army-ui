@@ -1,24 +1,25 @@
----
 language: node_js
 node_js:
-  - "6"
-
+- '6'
 sudo: false
-
 cache:
   directories:
-    - $HOME/.npm
-    - $HOME/.cache # includes bowers cache
-
+  - $HOME/.npm
+  - $HOME/.cache
 before_install:
-  - npm config set spin false
-  - npm install -g bower phantomjs-prebuilt
-  - bower --version
-  - phantomjs --version
-
+- npm config set spin false
+- npm install -g bower phantomjs-prebuilt
+- bower --version
+- phantomjs --version
 install:
-  - npm install
-  - bower install
-
+- npm install
+- bower install
 script:
-  - npm test
+- npm test
+deploy:
+  provider: heroku
+  api_key:
+    secure: Jw4sdi4xBaecpBjbS1KWzm5ZJvq9V7I7Zc81YdtZAgcQrrA51eM1U7yePdVckmgACEG+CgvlZP8ZQKjTcth/sGDEid0fTRyyqX2tNdkkpZVOowCe3hA6ljQTxLYzdKlkY8JhPOK1zwMxKSYWWVZV63+a3xpVkPVcl1U4cNSqLnXCeQuzZuvyHGIuklYT9N9NVrbVMH+CJTEsWNrv67JncPnZLaqAuS/9HbVeN+gZMqpg/TfiTbypKIVqtqeQSX/DThFXrufFxgy07sAOxF7d0XsiTx2CV9p0aN5ChqGHh0knaDEtfx33+CawUgUZl9xMt3JvLEXdjQFDbMwgUdLUBVbXdr2WB798hRMr7QK47mrlN+1E0HPVIMK0fhFcqs8YuISdOJcI87CN7bV5t3QKzX3WfFiRVZCJNuIlPhoxlfBnFuQPgpl5szz0BZb5A9UTTKqqZTuTBTK3QOE/KsgqO0Atqp7T3v5ODX4O647mJOtKYOKrcm6HMGjJ/xvHDxUlufhU6eHNqxrB+fVEWDIV+BXlxqREYST6pFDh2yZaWKq74PRj6A3UskY5swDc7Xpjgg3r1K6jYOE1pdDAxtieBjQy8Bb1ncHM4vEVCYhrJDX+JTMhspoTYGr5cR49eeWqvz02d+4nnYjZlIip7bwtJF0myNIYa+QYx/XS8k1J9qo=
+  app: blooming-fortress-77185
+  on:
+    repo: NedgoIO/maker.army-ui
